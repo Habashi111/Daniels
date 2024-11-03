@@ -1,0 +1,354 @@
+.section-one {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(img/img01.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+li {
+  margin: 25px 15px 0;
+}
+.text-nav {
+  color: white;
+  margin: 25px 15px 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+.text-nav:hover {
+  color: white;
+}
+.nav-link:hover {
+  color: white !important;
+}
+.nav-item a {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+.navbar {
+}
+.home::before {
+  content: "";
+  width: 40px;
+  height: 2px;
+  bottom: 10px;
+  background-color: white;
+  position: absolute;
+}
+.center-seaction-one {
+  height: 80vh;
+  width: 50%;
+
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.center-seaction-one h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.center-seaction-one h2 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 60px;
+  font-weight: 200;
+}
+
+.icons i {
+  padding: 10px;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+}
+
+.top {
+  border-bottom: dotted white 3px;
+  position: relative;
+}
+.top::before {
+  content: "";
+  width: 415;
+}
+.center-seaction-one {
+  height: 80vh;
+  width: 50%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.center-seaction-one h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.center-seaction-one h2 {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.center-seaction-one h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+
+  margin-bottom: 20px;
+}
+
+.center-seaction-one h2 {
+  font-family: "Montserrat Altern 60px";
+  font-weight: 200;
+}
+
+.icons i {
+  padding: 10px;
+}
+
+.prgrass-style {
+}
+.prograss-child span {
+  font-family: "Montserrat Altern 60px";
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(255, 255, 255) !important;
+  border: none;
+}
+
+.but1:hover {
+  background-color: black !important;
+  color: white;
+  transition: all 0.5s;
+}
+.but1 {
+  border-radius: 5px;
+}
+.but2 {
+  border-radius: 5px;
+}
+.but2:hover {
+  background-color: transparent !important;
+  color: black !important;
+  transition: all 0.5s;
+}
+.ui {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(153, 153, 153);
+}
+
+.top-pragraph {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(116, 129, 130);
+}
+
+.section-three {
+  background-color: #f7f7f7;
+  overflow: hidden;
+}
+.item-center {
+  margin-top: 100px;
+
+  text-align: center;
+}
+.item-center h2 {
+  font-family: "Montserrat Altern 60px";
+  font-size: 40px;
+  font-weight: 900;
+}
+.card-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #f7f7f7;
+  margin: auto;
+  transition: all 0.5s;
+}
+.crds1:hover .card-icon {
+  background-color: black;
+  color: white;
+}
+.iconss {
+  top: 30px;
+  right: 22px;
+  font-size: 25px;
+}
+.dimonds {
+  right: 27px;
+}
+.tv {
+  right: 25px;
+}
+.camera {
+  right: 28px;
+}
+.umbrella {
+  right: 25px;
+}
+.cred h3 {
+  font-family: "Montserrat Altern 60px";
+  font-size: 18px;
+  font-weight: 800;
+}
+.layer {
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all 1s;
+  border: 3px solid gray;
+}
+.cord-img:hover .layer {
+  opacity: 1;
+}
+
+.cursar-slide {
+  bottom: -40px;
+}
+.seaction-five {
+  height: 50vh;
+  background-color: #f7f7f7;
+}
+.img-slide {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.b1 {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  background-color: #d6d6d6 !important;
+  margin-left: 10px !important;
+}
+.seaction-six {
+  padding-top: 50px;
+}
+.members {
+  font-family: "Montserrat Altern 60px";
+  font-size: 30px;
+  font-weight: 900;
+}
+.h-cotaint {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(116, 129, 130);
+}
+
+.seaction-siven {
+  background-color: #f7f7f7;
+}
+
+.foter-siven {
+  background-color: #5b5b5b;
+}
+.foter-siven h2 {
+  color: white;
+  font-family: "Montserrat Altern 60px";
+  font-size: 25px;
+  font-weight: 500;
+}
+.img-siven {
+  position: relative;
+  overflow: hidden;
+}
+.img-siven img {
+  transition: transform 0.5s;
+}
+
+.layer-img {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: transform 0.6s;
+  opacity: 0;
+}
+.rotates {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: 5px;
+  color: white;
+}
+.rotates:hover {
+  background-color: white;
+  color: black;
+}
+.layer-img .rotates i {
+  position: absolute;
+
+  margin-left: 10px !important;
+  border-radius: 50%;
+  top: 10px !important;
+  left: 2px !important;
+
+  position: relative;
+  top: 0;
+
+  margin-left: 20px;
+}
+.card-siven:hover .img-siven img {
+  transform: scale(1.1);
+}
+.card-siven:hover .layer-img {
+  transform: rotateY(180deg);
+  opacity: 1;
+}
+.rotates {
+}
+.but-form {
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px;
+  transition: all 0.5s;
+}
+.but-form:hover {
+  background-color: transparent;
+  color: black;
+}
+.rotates i {
+  transform: rotateY(-180deg);
+  font-size: 50px;
+}
+.area {
+  height: 150px;
+}
+.foters {
+  height: 70px;
+  overflow: hidden;
+  text-align: center;
+}
+.foters h5 {
+  margin: 20px auto;
+}
+@media screen and (max-width: 400px) {
+  .center-seaction-one {
+    height: 0vh;
+    margin-top: 100%;
+  }
+}
